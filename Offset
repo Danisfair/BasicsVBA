@@ -1,0 +1,15 @@
+Sub entendendooffset()
+
+Range("a1").Select
+Selection.End(xlDown).Select
+ActiveCell.Offset(1, 0).Select
+ActiveCell = InputBox(" Insira um nome: ")
+
+
+
+
+
+
+
+
+End Sub
